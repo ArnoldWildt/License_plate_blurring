@@ -6,14 +6,14 @@
  
 ### Installation
 [install Anaconda](https://www.anaconda.com/distribution/#download-section)
-[install ffmpeg] (https://www.ffmpeg.org/download.html)
+[install ffmpeg](https://www.ffmpeg.org/download.html)
 ```
 conda create --name VLP python=3.7
 conda activate VLP
 pip install -r requirements.txt
 conda install -c anaconda cudnn
 ```
-Download modelfile from release and put it into ./model_data/
+Download modelfile from [release](https://github.com/ArnoldWildt/License_plate_blurring/releases/tag/0.1) and put it into ./model_data/
 
 
 ### Usage
